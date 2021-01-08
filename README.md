@@ -1,4 +1,4 @@
-# <Name_Exercise>
+# JavaScript Error Handling
 
 ## Getting Started
 
