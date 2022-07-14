@@ -1,10 +1,20 @@
-console.log("Hello World!\n==========\n");
+// TODO: Enable strict mode
 
-// Exercise 1 Section
-console.log("EXERCISE 1:\n==========\n");
+// TODO: Fix the following parameter list
+function parseToJSON(data, data) {
+  // TODO: Add a try/catch block to
+  // attempt to convert 'data' to JSON
+  return JSON.parse(data); 
+  
+  // TODO: if an exception is raised
+  // print the error to the console
+  // and return null
+}
 
-// Exercise 2 Section
-console.log("EXERCISE 2:\n==========\n");
+let failData = "<h1>Hello World!</h1>"
 
-// Exercise 3 Section
-console.log("EXERCISE 3:\n==========\n");
+let passData = JSON.stringify({ success: true });
+
+console.log(parseToJSON(failData));
+
+console.log(parseToJSON(passData));
